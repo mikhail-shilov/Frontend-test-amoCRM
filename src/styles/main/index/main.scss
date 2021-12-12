@@ -47,6 +47,7 @@
   border-radius: 5px;
   flex-grow: 1;
 
+
   @include media-tablet {
     min-height: 120px;
     flex-basis: 30%;
@@ -69,6 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: url(https://i116.fastpic.org/big/2021/1212/2a/c6bd44d861b196bb060a6f24ae76372a.png), pointer;
 }
 
 .empty-card {

@@ -139,6 +139,11 @@
   color: #000000;
 }
 
+.search__input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 .search__input::placeholder {
   color: #bbc4d6;
 }
