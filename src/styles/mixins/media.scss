@@ -1,0 +1,15 @@
+@import "../utils/variables";
+
+@mixin media-tablet {
+
+  @media (min-width: $mediaWidthTablet) {
+    @content;
+  }
+}
+
+@mixin media-desktop {
+
+  @media (min-width: $mediaWidthDesktop) {
+    @content;
+  }
+}
